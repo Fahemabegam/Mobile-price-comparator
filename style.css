@@ -1,0 +1,162 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3 {
+  width: 100%;
+  padding: 30px 24px;
+  display: flex;
+  align-items: center;
+  font-size: 80px;
+  font-style: sans-serif;
+  margin: 0 auto;
+}
+h1 {
+  margin-bottom: 50px;
+}
+h3 {
+  background-color: #41b06e;
+}
+/*-------SELECT BLOCK-----------*/
+
+.container,
+.th1 {
+  font-size: 80px;
+  font-style: sans-serif;
+}
+
+.form-control {
+  background-color: #8decb4;
+  font-size: 20px;
+  font-style: sans-serif;
+}
+.form-control:hover {
+  color: #fff5e0;
+  background-color: #141e46;
+}
+
+/*-------TABLE BLOCK-----------*/
+part {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 50px;
+}
+.table,
+.th {
+  background-color: #141e46;
+  width: 830px;
+  margin-left: 260px;
+  margin-top: 50px;
+  padding: 20px 24px;
+  color: #fff5e0;
+  font-size: 20px;
+  font-style: sans-serif;
+  border: 10px #41b06e;
+  border-radius: 10px;
+}
+
+/*--------BG_IMG--------------
+
+.banner {
+  position: relative;
+  width: 100%;
+}
+.bg-img {
+  width: 800px;
+  margin-top: 0px;
+}
+.bg-words,
+h3,
+h4 {
+  position: absolute;
+  margin-top: 0px;
+}
+*/
+
+/*notifications*/
+
+notification {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.update,
+.h7 {
+  display: grid;
+  color: #141e46;
+  font-size: 70px;
+}
+p1 {
+  color: #141e46;
+  margin-top: 30px;
+  font-size: 50px;
+}
+/*features*/
+
+features {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid #141e46;
+}
+.feat h7,
+h8,
+h9 {
+  font-style: sans-serif;
+  font-size: 30px;
+  color: #141e46;
+}
+.icon-menu {
+  width: 150px;
+  height: 150px;
+}
+
+/* footer content*/
+
+footer {
+  padding: 2px 18px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.foot h4,
+h5,
+h6 {
+  width: 600px;
+  padding: 3px 3px;
+  background-color: #8decb4;
+  color: #141e46;
+  font-size: 30px;
+  font-style: sans-serif;
+}
+.foot p {
+  color: #41b06e;
+  font-size: 19px;
+}
+
+.icon-foot {
+  width: 70px;
+  height: 70px;
+}
